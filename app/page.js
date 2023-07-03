@@ -106,7 +106,7 @@ export default function Home() {
 
       <div className="my-32">
         <p className="text-center text-4xl mb-2">Servizi</p>
-        <div className="flex justify-around items-center  my-10 mx-3">
+        <div className="flex flex-col gap-3 justify-around items-center  my-10 mx-3">
           <div className="rounded-lg shadow-md flex flex-col justify-center items-center p-5" style={{ width: '15rem', height: '15rem' }}>
             <Image alt="tiktok icon" src="/icons/tiktok2.png" height="100" width="100" />
             <p>TikTok ADS</p>
