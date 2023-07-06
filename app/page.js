@@ -56,10 +56,10 @@ export default function Home() {
             <MenuIcon fontSize="large" />
           </button>
         </div>
-        <header className={`${styles.simple_bg} text-4xl text-white`}>
+        <header className={`${styles.glass} text-4xl text-white`}>
           <div className="h-screen flex flex-col justify-around items-around">
             <h1 className="text-center font-medium ">SMMA International</h1>
-            <span className="text-8xl mx-3 text-center "><p>HAI DIFFICOLTÀ A SCALARE</p><p className="text-gray-500">LA TUA ATTIVITÀ LOCALE?</p> </span>
+            <span className="text-6xl mx-3 text-center "><p>HAI DIFFICOLTÀ A SCALARE</p><p className="text-gray-500">LA TUA ATTIVITÀ LOCALE?</p> </span>
             {/* <p className="text-8xl mx-3 text-center ">
               HAI DIFFICOLTÀ A SCALARE 
             </p> */}
@@ -109,8 +109,8 @@ export default function Home() {
         </Marquee>
       </div>
 
-      <div className="my-32">
-        <p className="text-center text-4xl mb-2">Copy</p>
+      <div className={`my-32 ${styles.copy} py-24`}>
+        <p className="text-center text-4xl m-0">Copy</p>
         <p className={`mx-6 text-justify text-xl text-gray-500 font-light ${sans.className}`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est et labore
           porro ex aliquid nisi doloremque voluptates neque deleniti eveniet,
@@ -123,7 +123,7 @@ export default function Home() {
       <div className="my-32">
         <p className="text-center text-4xl mb-2">Servizi</p>
         <div className="flex flex-col gap-10 justify-around items-center  my-10 mx-3">
-          <div className={` ${styles.bg} rounded-lg shadow-md flex flex-col justify-center items-center p-5 border-2 border-gray-300`} style={{ width: '50vw', height: '50vw' }}>
+          <div className={`  rounded-lg shadow-md flex flex-col justify-center items-center p-5 border-2 ${styles.bg}`} style={{ width: '50vw', height: '50vw' }}>
             <Image alt="tiktok icon" src="/icons/tiktok2.png" height="100" width="100" />
             <p>TikTok ADS</p>
           </div>
@@ -136,11 +136,11 @@ export default function Home() {
 
       <InlineWidget className="w-1/2" url="https://calendly.com/smma-international/call-w-nicco-edu" />
 
-      <div class="card"> 
-    <div class="card_img"> 
+      <div className={styles.card}> 
+    <div className={styles.card_img}> 
         <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-1100x628.jpg" alt="user-image"/>
     </div>
-    <div class="card_info">
+    <div className={styles.card_info}>
         <h2>Luche.Art</h2>
         <a className="font-thin" href="#!">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia delectus incidunt fuga molestias, minus a quisquam ex dolorem corrupti impedit, accusamus animi error magni ducimus omnis voluptates! Dolorum, quae iure?</a>
     </div>

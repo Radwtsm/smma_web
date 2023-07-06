@@ -12,3 +12,38 @@ background-color: #010012;
 .simple_bg {
     background-color: #010012;
 }
+
+.glass {
+
+    background: rgba( 1, 0, 18, 0.25 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur(16px );
+    -webkit-backdrop-filter: blur( 4px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+  .copy {
+    background-color: #010012;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+  }
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .card_img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+  }
+  .card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }   
+  
