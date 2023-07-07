@@ -8,7 +8,7 @@ const Copy = () => {
     <div className={`my-32 ${styles.copy} py-24`}>
     <p className="text-center text-4xl m-0">Copy</p>
     <p className={`mx-6 text-justify text-xl text-gray-500 font-light ${sans.className}`}>
-      Hai davvero intenzione di affidarti al caso?
+{`      Hai davvero intenzione di affidarti al caso?
 
       La tua attività, il tuo sudore, le tue notti insonni... meritano davvero un approccio così incerto?
 
@@ -72,7 +72,7 @@ const Copy = () => {
 
       Scopri come il nostro Framework SMMA può dare una svolta alla tua attività.
 
-      Non accontentarti di meno. Richiedi di più.
+      Non accontentarti di meno. Richiedi di più.`}
     </p>
   </div>
   )
