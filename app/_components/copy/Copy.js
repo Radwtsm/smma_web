@@ -6,7 +6,7 @@ const sans = Source_Sans_3({ subsets: ["latin"] });
 const Copy = () => {
   return (
     <div className={`my-32 ${styles.copy} py-24`}>
-    <p className="text-center text-4xl m-0">Copy</p>
+    <p className="text-center text-4xl m-0 mb-10">Copy</p>
     <p className={`mx-6 text-justify text-xl text-gray-500 font-light ${sans.className}`}>
 {`      Hai davvero intenzione di affidarti al caso?
 
